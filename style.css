@@ -1,0 +1,387 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1517686469429-8bdb88b9f907");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-red {
+  background-color: #8b0000;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #5c0000;
+  color: white;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.main-color {
+  background-color: #1b5e20;
+}
+
+
+.service-section {
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: red;
+  color: #ffffff;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+review-section {
+      background: linear-gradient(135deg, #7b1fa2, #4a148c);
+      color: green;
+    }
+
+    .review-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 15px;
+      padding: 25px;
+      position: relative;
+      transition: 0.3s ease;
+      height: 100%;
+    }
+
+    .review-card:hover {
+      background: rgba(255,255,255,0.15);
+      transform: translateY(-5px);
+    }
+
+    .quote {
+      font-size: 40px;
+      opacity: 0.2;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+
+    .stars {
+      color: gold;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .review-card h6 {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+/* Container */
+.reservasi-container {
+  width: 500px;
+  background: transparent;
+}
+
+/* Judul */
+.reservasi-container h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.reservasi-container p {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Tombol */
+.btn-reservasi {
+  width: 100%;
+  padding: 12px;
+  background-color: #f4b400;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-reservasi:hover {
+  background-color: #e0a800;
+}
+
+body .subscribe {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+}
+
+/* Container */
+.subscribe-section {
+  padding: 60px 20px;
+}
+
+/* Judul */
+.subscribe-section h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-bottom: 40px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 28px;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f4b400;
+  transform: scale(1.2);
+}
+
+/* Subscribe */
+.subscribe-title {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.subscribe-text {
+  color: #cccccc;
+  margin-bottom: 25px;
+}
+
+/* Form */
+.subscribe-form {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.subscribe-form button {
+  padding: 12px 25px;
+  border: none;
+  background-color: #f4b400;
+  color: white;
+  font-weight: 500;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #e0a800;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .subscribe-form {
+    flex-direction: column;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  .subscribe-form button {
+    margin-top: 10px;
+  }
+}
+
+body .footer {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f252b;
+  color: #cfd8dc;
+  padding: 50px 20px 20px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer p,
+.footer a {
+  font-size: 14px;
+  color: #cfd8dc;
+  text-decoration: none;
+  line-height: 1.8;
+}
+
+.footer a:hover {
+  color: #f4b400;
+}
+
+/* Divider */
+.footer hr {
+  border: 0;
+  border-top: 1px solid #37474f;
+  margin: 30px 0 15px;
+}
+
+/* Copyright */
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #90a4ae;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+}
+
+page-item {
+  margin: 0 5px;
+}
+
+page-link {
+  display: block;
+  padding: 40px 80px;
+  text-decoration: none;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.page-item.active .page-link {
+  background-color: #0d6efd;
+  color: white;
+  pointer-events: none;
+}
+
+.page-item.disabled .page-link {
+  color: #aaa;
+  border-color: #aaa;
+  pointer-events: none;
+}
+
+.testimony {
+    background-color: rgb(110, 110, 110);
+}
+
+.review-card {
+    background-color: rgba(199, 199, 199, 0.377);
+    border-radius: 15px;
+    padding: 25px;
+    position: relative;
+    transition: 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 100%;
+    color: white;
+}
+
+.review-card:hover {
+    background-color: rgb(172, 172, 172);
+    transform: translateY(-5px);
+}
+
+.footer {
+    background: #444444;
+}
+
+.footer .social-icon {
+    font-size: 2rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer .social-icon:hover {
+    color: #ffc107;
+    transform: scale(1.2);
+}
